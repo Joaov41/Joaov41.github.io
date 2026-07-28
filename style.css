@@ -356,6 +356,13 @@ a {
   text-transform: uppercase;
 }
 
+.secondary-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.1rem;
+}
+
 .projects-section {
   display: grid;
   grid-template-columns: minmax(280px, 0.8fr) 1.6fr;
@@ -679,6 +686,15 @@ footer > a:last-child {
 
   .app-card {
     min-height: 510px;
+  }
+
+  .app-actions {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .secondary-actions {
+    margin-left: auto;
   }
 
   .app-copy h3 {
