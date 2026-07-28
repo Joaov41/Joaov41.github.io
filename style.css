@@ -21,8 +21,29 @@
   --line: #c9c6bc;
   --signal: #ff5c35;
   --acid: #c8ed43;
+  --inverse: #171714;
+  --inverse-ink: #f2f0ea;
+  --on-bright: #171714;
+  --about-surface: #d8d5cc;
+  --about-muted: #59574f;
   --font-geist-sans: "Geist";
   --font-geist-mono: "Geist Mono";
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171714;
+    --ink: #f2f0ea;
+    --muted: #aaa79e;
+    --line: #484740;
+    --signal: #ff7452;
+    --acid: #d1f052;
+    --inverse: #0c0c0a;
+    --inverse-ink: #f2f0ea;
+    --about-surface: #282824;
+    --about-muted: #b9b6ad;
+  }
 }
 
 * {
@@ -200,8 +221,8 @@ a {
 
 .apps-section {
   padding: 8rem 4.4vw;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--inverse);
+  color: var(--inverse-ink);
 }
 
 .section-heading {
@@ -247,7 +268,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: clamp(1.5rem, 3vw, 3rem);
-  color: var(--ink);
+  color: var(--on-bright);
 }
 
 .redsum-card {
@@ -459,7 +480,7 @@ a {
   align-items: center;
   gap: 7vw;
   padding: 8rem 4.4vw;
-  background: #d8d5cc;
+  background: var(--about-surface);
 }
 
 .about-photo-wrap {
@@ -482,6 +503,7 @@ a {
   display: block;
   padding: 0.8rem 1.1rem;
   background: var(--acid);
+  color: var(--on-bright);
   font-family: var(--font-geist-mono), monospace;
   font-size: 0.6rem;
   letter-spacing: 0.09em;
@@ -511,7 +533,7 @@ a {
 
 .about-columns p {
   margin: 0;
-  color: #59574f;
+  color: var(--about-muted);
   line-height: 1.65;
 }
 
@@ -522,7 +544,7 @@ a {
   gap: 2rem;
   padding: 4rem 4.4vw;
   background: var(--signal);
-  color: var(--ink);
+  color: var(--on-bright);
 }
 
 .contact-strip p {
@@ -535,15 +557,15 @@ a {
 .contact-strip a {
   flex: 0 0 auto;
   padding: 0.9rem 1.2rem;
-  border: 1px solid var(--ink);
+  border: 1px solid var(--on-bright);
   font-size: 0.82rem;
   font-weight: 650;
   transition: background 160ms ease, color 160ms ease;
 }
 
 .contact-strip a:hover {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--on-bright);
+  color: #f2f0ea;
 }
 
 footer {
@@ -552,8 +574,8 @@ footer {
   align-items: center;
   min-height: 160px;
   padding: 2rem 4.4vw;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--inverse);
+  color: var(--inverse-ink);
 }
 
 footer p,
