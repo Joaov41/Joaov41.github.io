@@ -259,7 +259,7 @@ a {
 
 .app-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -277,6 +277,10 @@ a {
 
 .rssum-card {
   background: var(--acid);
+}
+
+.vortex-card {
+  background: #7184e8;
 }
 
 .app-top {
