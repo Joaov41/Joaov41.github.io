@@ -223,6 +223,7 @@ a {
   padding: 8rem 4.4vw;
   background: var(--inverse);
   color: var(--inverse-ink);
+  overflow-x: clip;
 }
 
 .section-heading {
