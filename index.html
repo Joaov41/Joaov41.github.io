@@ -4,373 +4,319 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Apps and open-source projects by Joao Valente, an independent developer building native software for iPhone, iPad and Mac.">
-    <meta name="theme-color" content="#f2f0ea" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#171714" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <title>Joao Valente — Independent Apple Developer</title>
     <link rel="icon" href="assets/joao-valente.jpg">
-    <link rel="stylesheet" href="style.css?v=4-app-layout">
+    <link rel="stylesheet" href="style.css?v=5-docs">
   </head>
   <body>
-    <main>
-      <header class="site-header">
-        <a class="wordmark" href="#top" aria-label="Joao Valente, home">
-          JV<span class="wordmark-dot">.</span>
-        </a>
-        <nav aria-label="Main navigation">
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="globalnav">
+      <div class="globalnav-inner">
+        <a class="globalnav-title" href="#top">Joao Valente</a>
+        <nav class="globalnav-links" aria-label="Site">
           <a href="#apps">Apps</a>
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
+          <a href="https://github.com/Joaov41" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
-        <a class="header-link" href="https://github.com/Joaov41" target="_blank" rel="noreferrer">
-          GitHub <span aria-hidden="true">↗</span>
-        </a>
-      </header>
+      </div>
+    </header>
 
-      <section class="hero" id="top">
-        <div class="hero-kicker">
-          <span>Independent developer</span>
-          <span class="availability">
-            <i aria-hidden="true"></i> Building in public
-          </span>
-        </div>
-        <h1>
-          I make useful<br>
-          software for<br>
-          <em>Apple Ecosystem</em>
-        </h1>
-        <div class="hero-footer">
-          <p>
-            I’m Joao Valente. I build native apps for iPhone, iPad and Mac,
-            exploring better ways to read, research, focus and work with AI.
+    <div class="doc" id="top">
+      <aside class="navigator" aria-label="Documentation navigator">
+        <nav>
+          <ul class="nav-tree">
+            <li><a class="nav-root" href="#top" data-spy="top">Joao Valente</a>
+              <ul>
+                <li><a href="#apps" data-spy="apps">Apps</a>
+                  <ul>
+                    <li><a href="#redsum" data-spy="redsum">RedSum</a></li>
+                    <li><a href="#rssum" data-spy="rssum">RSSum</a></li>
+                    <li><a href="#vortex" data-spy="vortex">Vortex</a></li>
+                    <li><a href="#aiassistant" data-spy="aiassistant">Aiassistant</a></li>
+                  </ul>
+                </li>
+                <li><a href="#projects" data-spy="projects">Open-source projects</a>
+                  <ul>
+                    <li><a href="#localtypist" data-spy="localtypist">LocalTypist</a></li>
+                    <li><a href="#grid-switcher" data-spy="grid-switcher">Grid Switcher</a></li>
+                    <li><a href="#focus-latch" data-spy="focus-latch">Focus Latch</a></li>
+                    <li><a href="#floatdeck" data-spy="floatdeck">FloatDeck</a></li>
+                    <li><a href="#redbarapp" data-spy="redbarapp">RedbarApp</a></li>
+                    <li><a href="#hidemydata" data-spy="hidemydata">HideMyData</a></li>
+                    <li><a href="#redactor" data-spy="redactor">Redactor</a></li>
+                    <li><a href="#applegpt" data-spy="applegpt">AppleGPT</a></li>
+                    <li><a href="#screencapnative" data-spy="screencapnative">ScreencapNative</a></li>
+                  </ul>
+                </li>
+                <li><a href="#about" data-spy="about">About</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content" id="content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="#top">Documentation</a></li>
+            <li aria-current="page">Joao Valente</li>
+          </ol>
+        </nav>
+
+        <header class="symbol-header">
+          <h1>Joao Valente</h1>
+          <p class="abstract">
+            An independent developer building native software for iPhone, iPad
+            and Mac, exploring better ways to read, research, focus and work with AI.
           </p>
-          <a class="round-link" href="#apps" aria-label="See my apps">
-            <span>See my work</span>
-            <b aria-hidden="true">↓</b>
-          </a>
-        </div>
-        <div class="hero-rule" aria-hidden="true">
-          <span>Swift</span>
-          <span>SwiftUI</span>
-          <span>Local AI</span>
-          <span>Useful tools</span>
-        </div>
-      </section>
+          <dl class="availability" aria-label="Availability">
+            <dt>Availability</dt>
+            <dd>iOS</dd>
+            <dd>iPadOS</dd>
+            <dd>macOS</dd>
+            <dd>Open source</dd>
+          </dl>
+        </header>
 
-      <section class="apps-section" id="apps">
-        <div class="section-heading">
-          <p class="eyebrow">Available now</p>
-          <h2>Apps I’m building</h2>
-          <p class="section-intro">
-            Four focused apps, built and shipped independently.
-          </p>
-        </div>
+        <section class="declaration-section" aria-labelledby="declaration-heading">
+          <h2 id="declaration-heading">Declaration</h2>
+          <pre class="declaration"><code><span class="kw">struct</span> <span class="ty">JoaoValente</span>: <span class="ty">IndependentDeveloper</span> {
+    <span class="kw">let</span> platforms: [<span class="ty">Platform</span>] = [.iOS, .iPadOS, .macOS]
+    <span class="kw">let</span> languages = [<span class="st">"Swift"</span>, <span class="st">"SwiftUI"</span>]
+    <span class="kw">let</span> focus = [<span class="st">"private local AI"</span>, <span class="st">"reading"</span>, <span class="st">"focus"</span>]
+    <span class="kw">let</span> source = <span class="ty">URL</span>(<span class="st">"https://github.com/Joaov41"</span>)
+}</code></pre>
+        </section>
 
-        <div class="app-grid">
-          <article class="app-card redsum-card">
-            <div class="app-top">
-              <img class="app-icon" src="assets/redsum.jpg" alt="RedSum app icon" width="144" height="144">
-              <span class="app-number">APP 01</span>
-            </div>
-            <div class="app-copy">
-              <p class="app-platform">iPhone · iPad · Mac</p>
-              <h3>RedSum</h3>
+        <section class="topics" id="apps" aria-labelledby="apps-heading">
+          <h2 id="apps-heading">Apps</h2>
+          <p class="topics-intro">Four focused apps, built and shipped independently. Most of the work, including the apps themselves, is published as open source on GitHub.</p>
+
+          <article class="symbol" id="redsum">
+            <img class="symbol-icon" src="assets/redsum.jpg" alt="" width="72" height="72">
+            <div class="symbol-body">
+              <h3><a href="https://apps.apple.com/us/app/redsum/id6757315148" target="_blank" rel="noreferrer">RedSum</a></h3>
+              <pre class="declaration declaration-inline"><code><span class="at">@available</span>(iOS, iPadOS, macOS)
+<span class="kw">struct</span> <span class="ty">RedSum</span>: <span class="ty">App</span></code></pre>
               <p>
                 A Reddit client that turns posts and comment threads into useful
                 summaries. Read communities, ask grounded follow-up questions,
                 compare research, and save what matters.
               </p>
-            </div>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/us/app/redsum/id6757315148" target="_blank" rel="noreferrer">
-                View on the App Store <span aria-hidden="true">↗</span>
-              </a>
-              <span class="secondary-actions">
-                <a class="secondary-link" href="https://www.redapp.digital/" target="_blank" rel="noreferrer">
-                  Website <span aria-hidden="true">↗</span>
-                </a>
-                <a class="secondary-link" href="https://github.com/Joaov41/redapp" target="_blank" rel="noreferrer">
-                  Source
-                </a>
-              </span>
+              <div class="see-also-row"><span class="row-label">See Also</span>
+                <ul class="symbol-links">
+                <li><a href="https://apps.apple.com/us/app/redsum/id6757315148" target="_blank" rel="noreferrer">View on the App Store</a></li>
+                <li><a href="https://www.redapp.digital/" target="_blank" rel="noreferrer">Website</a></li>
+                <li><a href="https://github.com/Joaov41/redapp" target="_blank" rel="noreferrer">Source</a></li>
+                </ul>
+              </div>
             </div>
           </article>
 
-          <article class="app-card rssum-card">
-            <div class="app-top">
-              <img class="app-icon" src="assets/rssum.jpg" alt="RSSum app icon" width="144" height="144">
-              <span class="app-number">APP 02</span>
-            </div>
-            <div class="app-copy">
-              <p class="app-platform">iPhone · iPad · Mac</p>
-              <h3>RSSum</h3>
+          <article class="symbol" id="rssum">
+            <img class="symbol-icon" src="assets/rssum.jpg" alt="" width="72" height="72">
+            <div class="symbol-body">
+              <h3><a href="https://apps.apple.com/us/app/rssum/id6743862589" target="_blank" rel="noreferrer">RSSum</a></h3>
+              <pre class="declaration declaration-inline"><code><span class="at">@available</span>(iOS, iPadOS, macOS)
+<span class="kw">struct</span> <span class="ty">RSSum</span>: <span class="ty">App</span></code></pre>
               <p>
                 RSS articles, Reddit feeds, YouTube and podcasts in one clean
                 reader. Get summaries, ask follow-up questions, and talk
                 directly to the content you follow.
               </p>
-            </div>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/us/app/rssum/id6743862589" target="_blank" rel="noreferrer">
-                View on the App Store <span aria-hidden="true">↗</span>
-              </a>
-              <span class="secondary-actions">
-                <a class="secondary-link" href="https://rssapp.top/#" target="_blank" rel="noreferrer">
-                  Website <span aria-hidden="true">↗</span>
-                </a>
-                <a class="secondary-link" href="https://github.com/Joaov41/Rss" target="_blank" rel="noreferrer">
-                  Source
-                </a>
-              </span>
+              <div class="see-also-row"><span class="row-label">See Also</span>
+                <ul class="symbol-links">
+                <li><a href="https://apps.apple.com/us/app/rssum/id6743862589" target="_blank" rel="noreferrer">View on the App Store</a></li>
+                <li><a href="https://rssapp.top/#" target="_blank" rel="noreferrer">Website</a></li>
+                <li><a href="https://github.com/Joaov41/Rss" target="_blank" rel="noreferrer">Source</a></li>
+                </ul>
+              </div>
             </div>
           </article>
 
-          <article class="app-card vortex-card">
-            <div class="app-top">
-              <img class="app-icon" src="assets/vortex.png" alt="Vortex Browser app icon" width="144" height="144">
-              <span class="app-number">APP 03</span>
-            </div>
-            <div class="app-copy">
-              <p class="app-platform">iPhone · iPad · TestFlight</p>
-              <h3>Vortex</h3>
+          <article class="symbol" id="vortex">
+            <img class="symbol-icon" src="assets/vortex.png" alt="" width="72" height="72">
+            <div class="symbol-body">
+              <h3><a href="https://testflight.apple.com/join/KTsJ3qz4" target="_blank" rel="noreferrer">Vortex</a></h3>
+              <pre class="declaration declaration-inline"><code><span class="at">@available</span>(iOS, iPadOS)  <span class="cm">// TestFlight</span>
+<span class="kw">struct</span> <span class="ty">Vortex</span>: <span class="ty">App</span></code></pre>
               <p>
                 A focused browser with tab management, reader tools, content
                 blocking, a share extension, and AI-assisted page summaries.
               </p>
-            </div>
-            <div class="app-actions">
-              <a href="https://testflight.apple.com/join/KTsJ3qz4" target="_blank" rel="noreferrer">
-                Try on TestFlight <span aria-hidden="true">↗</span>
-              </a>
-              <span class="secondary-actions">
-                <a class="secondary-link" href="https://vortex.engineer/" target="_blank" rel="noreferrer">
-                  Website <span aria-hidden="true">↗</span>
-                </a>
-                <a class="secondary-link" href="https://github.com/Joaov41/Vortex-Browser" target="_blank" rel="noreferrer">
-                  Source
-                </a>
-              </span>
+              <div class="see-also-row"><span class="row-label">See Also</span>
+                <ul class="symbol-links">
+                <li><a href="https://testflight.apple.com/join/KTsJ3qz4" target="_blank" rel="noreferrer">Try on TestFlight</a></li>
+                <li><a href="https://vortex.engineer/" target="_blank" rel="noreferrer">Website</a></li>
+                <li><a href="https://github.com/Joaov41/Vortex-Browser" target="_blank" rel="noreferrer">Source</a></li>
+                </ul>
+              </div>
             </div>
           </article>
 
-          <article class="app-card aiassistant-card">
-            <div class="app-top">
-              <img class="app-icon" src="assets/aiassistant.png?v=current-logo" alt="Aiassistant app icon" width="144" height="144">
-              <span class="app-number">APP 04</span>
-            </div>
-            <div class="app-copy">
-              <p class="app-platform">macOS · Open source</p>
-              <h3>Aiassistant</h3>
+          <article class="symbol" id="aiassistant">
+            <img class="symbol-icon" src="assets/aiassistant.png?v=current-logo" alt="" width="72" height="72">
+            <div class="symbol-body">
+              <h3><a href="https://ai.assistant.community" target="_blank" rel="noreferrer">Aiassistant</a></h3>
+              <pre class="declaration declaration-inline"><code><span class="at">@available</span>(macOS)  <span class="cm">// Open source</span>
+<span class="kw">struct</span> <span class="ty">Aiassistant</span>: <span class="ty">App</span></code></pre>
               <p>
                 A floating Mac assistant for summarizing, rewriting, translating,
                 inspecting files, and asking follow-ups from any app.
               </p>
-            </div>
-            <div class="app-actions">
-              <a href="https://ai.assistant.community" target="_blank" rel="noreferrer">
-                Visit website <span aria-hidden="true">↗</span>
-              </a>
-              <a class="secondary-link" href="https://github.com/Joaov41/Aiassistant" target="_blank" rel="noreferrer">
-                Source
-              </a>
+              <div class="see-also-row"><span class="row-label">See Also</span>
+                <ul class="symbol-links">
+                <li><a href="https://ai.assistant.community" target="_blank" rel="noreferrer">Visit website</a></li>
+                <li><a href="https://github.com/Joaov41/Aiassistant" target="_blank" rel="noreferrer">Source</a></li>
+                </ul>
+              </div>
             </div>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section class="projects-section" id="projects">
-        <div class="projects-lead">
-          <p class="eyebrow">Selected experiments</p>
-          <h2>Open-source<br>projects<span>.</span></h2>
-          <p>
+        <section class="topics" id="projects" aria-labelledby="projects-heading">
+          <h2 id="projects-heading">Open-source projects</h2>
+          <p class="topics-intro">
             A selection of native tools and prototypes from my public GitHub
             work. Each project starts with a specific friction I want to remove.
           </p>
-          <a href="https://github.com/Joaov41?tab=repositories" target="_blank" rel="noreferrer">
-            Browse all repositories <span aria-hidden="true">↗</span>
-          </a>
-        </div>
 
-        <div class="project-list">
-          <a class="project-row" href="https://github.com/Joaov41/LocalTypist" target="_blank" rel="noreferrer">
-            <span class="project-index">01</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>LocalTypist</h3>
-                <span>macOS</span>
-              </div>
+          <ul class="topic-list">
+            <li class="topic" id="localtypist">
+              <a class="topic-name" href="https://github.com/Joaov41/LocalTypist" target="_blank" rel="noreferrer">LocalTypist</a>
+              <p class="topic-meta"><span>macOS</span><span>SwiftUI, llama.cpp, Privacy</span></p>
               <p>Private, system-wide autocomplete built around local GGUF models, with app-specific controls and on-device context handling.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>llama.cpp</span><span>Privacy</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/grid-switcher" target="_blank" rel="noreferrer">
-            <span class="project-index">02</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>Grid Switcher</h3>
-                <span>macOS</span>
-              </div>
+            </li>
+            <li class="topic" id="grid-switcher">
+              <a class="topic-name" href="https://github.com/Joaov41/grid-switcher" target="_blank" rel="noreferrer">Grid Switcher</a>
+              <p class="topic-meta"><span>macOS</span><span>AppKit, Trackpad, Utility</span></p>
               <p>A menu-bar utility that maps a physical 3×3 trackpad grid to stable app shortcuts — a virtual Stream Deck under your fingertips.</p>
-              <div class="tag-list">
-                <span>AppKit</span><span>Trackpad</span><span>Utility</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/FocusLatch" target="_blank" rel="noreferrer">
-            <span class="project-index">03</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>Focus Latch</h3>
-                <span>macOS</span>
-              </div>
+            </li>
+            <li class="topic" id="focus-latch">
+              <a class="topic-name" href="https://github.com/Joaov41/FocusLatch" target="_blank" rel="noreferrer">Focus Latch</a>
+              <p class="topic-meta"><span>macOS</span><span>Swift, Multitouch, Focus</span></p>
               <p>Two trackpad gestures to lock focus on the current app or pin a live preview of a window while working elsewhere.</p>
-              <div class="tag-list">
-                <span>Swift</span><span>Multitouch</span><span>Focus</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/FloatDeck" target="_blank" rel="noreferrer">
-            <span class="project-index">04</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>FloatDeck</h3>
-                <span>macOS 26+</span>
-              </div>
+            </li>
+            <li class="topic" id="floatdeck">
+              <a class="topic-name" href="https://github.com/Joaov41/FloatDeck" target="_blank" rel="noreferrer">FloatDeck</a>
+              <p class="topic-meta"><span>macOS 26+</span><span>Swift, ScreenCaptureKit, PiP</span></p>
               <p>A menu-bar utility that keeps websites and live app windows visible in resizable always-on-top panels, with opacity controls and saved layouts.</p>
-              <div class="tag-list">
-                <span>Swift</span><span>ScreenCaptureKit</span><span>PiP</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/RedbarApp" target="_blank" rel="noreferrer">
-            <span class="project-index">05</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>RedbarApp</h3>
-                <span>macOS</span>
-              </div>
+            </li>
+            <li class="topic" id="redbarapp">
+              <a class="topic-name" href="https://github.com/Joaov41/RedbarApp" target="_blank" rel="noreferrer">RedbarApp</a>
+              <p class="topic-meta"><span>macOS</span><span>SwiftUI, Reddit, TTS</span></p>
               <p>A native menu-bar Reddit client with summaries, Q&amp;A, media browsing, text-to-speech, and secure OAuth and Keychain configuration.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>Reddit</span><span>TTS</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/HideMyData" target="_blank" rel="noreferrer">
-            <span class="project-index">06</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>HideMyData</h3>
-                <span>macOS 26+ · Fork</span>
-              </div>
+            </li>
+            <li class="topic" id="hidemydata">
+              <a class="topic-name" href="https://github.com/Joaov41/HideMyData" target="_blank" rel="noreferrer">HideMyData</a>
+              <p class="topic-meta"><span>macOS 26+</span><span>Fork</span><span>SwiftUI, MLX, Vision</span></p>
               <p>A fork of mkbula/HideMyData that extends local PII redaction with document summaries, grounded Q&amp;A, Apple Intelligence model selection, and exports.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>MLX</span><span>Vision</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="project-row" href="https://github.com/Joaov41/Redactor" target="_blank" rel="noreferrer">
-            <span class="project-index">07</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>Redactor</h3>
-                <span>macOS 26+ · iOS 26+</span>
-              </div>
+            </li>
+            <li class="topic" id="redactor">
+              <a class="topic-name" href="https://github.com/Joaov41/Redactor" target="_blank" rel="noreferrer">Redactor</a>
+              <p class="topic-meta"><span>macOS 26+</span><span>iOS 26+</span><span>SwiftUI, MLX, Privacy</span></p>
               <p>A privacy-first document workspace with local redaction, reversible placeholders, summaries, grounded Q&amp;A, and on-device MLX models.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>MLX</span><span>Privacy</span>
-              </div>
-            </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <div class="project-row project-row-multi">
-            <span class="project-index">08</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>AppleGPT</h3>
-                <span>iOS · iPadOS · macOS · Modified fork</span>
-              </div>
+            </li>
+            <li class="topic" id="applegpt">
+              <span class="topic-name">AppleGPT</span>
+              <p class="topic-meta"><span>iOS</span><span>iPadOS</span><span>macOS</span><span>Modified fork</span><span>SwiftUI, Foundation Models, MLX</span></p>
               <p>A native Apple-platform AI assistant with Foundation Models, Private Cloud Compute, cloud providers, local MLX models, summaries, and follow-up Q&amp;A.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>Foundation Models</span><span>MLX</span>
+              <div class="see-also-row"><span class="row-label">See Also</span>
+                <ul class="symbol-links">
+                <li><a href="https://github.com/Joaov41/AppleGPT" target="_blank" rel="noreferrer">iOS and iPadOS source</a></li>
+                <li><a href="https://github.com/Joaov41/AppleGPT-macOS" target="_blank" rel="noreferrer">macOS source</a></li>
+              </ul>
               </div>
-            </div>
-            <span class="project-links">
-              <a href="https://github.com/Joaov41/AppleGPT" target="_blank" rel="noreferrer">iOS / iPadOS ↗</a>
-              <a href="https://github.com/Joaov41/AppleGPT-macOS" target="_blank" rel="noreferrer">macOS ↗</a>
-            </span>
-          </div>
-
-          <a class="project-row" href="https://github.com/Joaov41/ScreencapNative" target="_blank" rel="noreferrer">
-            <span class="project-index">09</span>
-            <div class="project-main">
-              <div class="project-title">
-                <h3>ScreencapNative</h3>
-                <span>macOS</span>
-              </div>
+            </li>
+            <li class="topic" id="screencapnative">
+              <a class="topic-name" href="https://github.com/Joaov41/ScreencapNative" target="_blank" rel="noreferrer">ScreencapNative</a>
+              <p class="topic-meta"><span>macOS</span><span>SwiftUI, ScreenCaptureKit, Vision</span></p>
               <p>A private, searchable screenshot history with change-aware screen capture, on-device OCR, flexible text search, result previews, and match highlighting.</p>
-              <div class="tag-list">
-                <span>SwiftUI</span><span>ScreenCaptureKit</span><span>Vision</span>
-              </div>
+            </li>
+          </ul>
+
+          <p class="see-more">
+            <a href="https://github.com/Joaov41?tab=repositories" target="_blank" rel="noreferrer">Browse all repositories on GitHub</a>
+          </p>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About</h2>
+          <div class="about-grid">
+            <figure class="portrait">
+              <img src="assets/joao-valente.jpg" alt="Portrait of Joao Valente" width="240" height="240">
+              <figcaption>Joao Valente, independent developer.</figcaption>
+            </figure>
+            <div class="about-copy">
+              <p>
+                I’m an independent developer working mostly in Swift and SwiftUI.
+                I care about direct, understandable software that solves a real
+                problem without getting between people and their work.
+              </p>
+              <p>
+                My projects often explore private local AI, new Apple platform
+                capabilities, unusual trackpad interactions, and calmer ways to
+                navigate information.
+              </p>
             </div>
-            <span class="project-arrow" aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </section>
-
-      <section class="about-section" id="about">
-        <div class="about-photo-wrap">
-          <img class="about-photo" src="assets/joao-valente.jpg" alt="Joao Valente" width="420" height="420">
-          <span class="photo-label">JOAO VALENTE · DEVELOPER</span>
-        </div>
-        <div class="about-copy">
-          <p class="eyebrow">A little context</p>
-          <h2>Curious about what<br>computers can do <em>for us.</em></h2>
-          <div class="about-columns">
-            <p>
-              I’m an independent developer working mostly in Swift and SwiftUI.
-              I care about direct, understandable software that solves a real
-              problem without getting between people and their work.
-            </p>
-            <p>
-              My projects often explore private local AI, new Apple platform
-              capabilities, unusual trackpad interactions, and calmer ways to
-              navigate information.
-            </p>
           </div>
-          <a class="profile-link" href="https://github.com/Joaov41" target="_blank" rel="noreferrer">
-            Follow the work on GitHub <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </section>
+        </section>
 
-      <section class="contact-strip">
-        <p>Have a question about one of my apps?</p>
-        <a href="https://github.com/Joaov41" target="_blank" rel="noreferrer">
-          Let’s talk on GitHub <span aria-hidden="true">↗</span>
-        </a>
-      </section>
+        <section class="see-also" aria-labelledby="see-also-heading">
+          <h2 id="see-also-heading">See Also</h2>
+          <ul class="topic-list">
+            <li class="topic">
+              <a class="topic-name" href="https://github.com/Joaov41" target="_blank" rel="noreferrer">github.com/Joaov41</a>
+              <p>Source code, issues, and the place to ask a question about any of these apps.</p>
+            </li>
+          </ul>
+        </section>
 
-      <footer>
-        <a class="wordmark footer-mark" href="#top">
-          JV<span class="wordmark-dot">.</span>
-        </a>
-        <p>Designed around the work. Built by Joao Valente.</p>
-        <a href="#top">Back to top ↑</a>
-      </footer>
-    </main>
+        <footer class="doc-footer">
+          <p>Built by Joao Valente. Designed around the work.</p>
+          <a href="#top">Back to top</a>
+        </footer>
+      </main>
+
+      <aside class="on-this-page" aria-label="On this page">
+        <p class="otp-title">On This Page</p>
+        <ul>
+          <li><a href="#declaration-heading" data-spy="declaration-heading">Declaration</a></li>
+          <li><a href="#apps" data-spy="apps">Apps</a></li>
+          <li><a href="#projects" data-spy="projects">Open-source projects</a></li>
+          <li><a href="#about" data-spy="about">About</a></li>
+          <li><a href="#see-also-heading" data-spy="see-also-heading">See Also</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <script>
+      (function () {
+        if (!('IntersectionObserver' in window)) return;
+        var links = Array.prototype.slice.call(document.querySelectorAll('[data-spy]'));
+        var byId = {};
+        links.forEach(function (a) { (byId[a.getAttribute('data-spy')] = byId[a.getAttribute('data-spy')] || []).push(a); });
+        var targets = Object.keys(byId).map(function (id) { return document.getElementById(id); }).filter(Boolean);
+        var current = null;
+        function setCurrent(id) {
+          if (id === current) return;
+          current = id;
+          links.forEach(function (a) { a.removeAttribute('aria-current'); });
+          (byId[id] || []).forEach(function (a) { a.setAttribute('aria-current', 'location'); });
+        }
+        var visible = new Map();
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { visible.set(e.target.id, e.isIntersecting ? e.boundingClientRect.top : null); });
+          var best = null, bestTop = Infinity;
+          visible.forEach(function (top, id) { if (top !== null && top < bestTop) { bestTop = top; best = id; } });
+          if (best) setCurrent(best);
+        }, { rootMargin: '-64px 0px -60% 0px', threshold: 0 });
+        targets.forEach(function (t) { io.observe(t); });
+      })();
+    </script>
   </body>
 </html>

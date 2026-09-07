@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-07T14:05:32Z",
+  "title": "Design System: Joao Valente — Independent Apple Developer",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "dark": "#000000", "cssVar": "--paper", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#1d1d1f", "dark": "#f5f5f7", "cssVar": "--ink", "tonalRamp": ["oklch(15% 0.003 286)", "oklch(23% 0.003 286)", "oklch(35% 0.003 286)", "oklch(47% 0.003 286)", "oklch(59% 0.003 286)", "oklch(71% 0.003 286)", "oklch(85% 0.003 286)", "oklch(97% 0.002 286)"] },
+      "ink-secondary": { "role": "neutral", "displayName": "Secondary Ink", "canonical": "#6e6e73", "dark": "#a1a1a6", "cssVar": "--ink-2", "tonalRamp": ["oklch(15% 0.008 286)", "oklch(27% 0.009 286)", "oklch(39% 0.01 286)", "oklch(53% 0.01 286)", "oklch(63% 0.01 286)", "oklch(72% 0.008 286)", "oklch(85% 0.006 286)", "oklch(95% 0.004 286)"] },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#d2d2d7", "dark": "#424245", "cssVar": "--rule", "tonalRamp": ["oklch(15% 0.005 286)", "oklch(27% 0.006 286)", "oklch(37% 0.006 286)", "oklch(51% 0.007 286)", "oklch(63% 0.007 286)", "oklch(75% 0.007 286)", "oklch(86% 0.007 286)", "oklch(95% 0.005 286)"] },
+      "well": { "role": "neutral", "displayName": "Well", "canonical": "#f5f5f7", "dark": "#161617", "cssVar": "--well", "tonalRamp": ["oklch(15% 0.002 286)", "oklch(19% 0.002 286)", "oklch(39% 0.002 286)", "oklch(51% 0.002 286)", "oklch(63% 0.002 286)", "oklch(75% 0.002 286)", "oklch(87% 0.002 286)", "oklch(97% 0.002 286)"] },
+      "link": { "role": "primary", "displayName": "Documentation Blue", "canonical": "#0066cc", "dark": "#2997ff", "cssVar": "--link", "tonalRamp": ["oklch(15% 0.08 257)", "oklch(27% 0.13 257)", "oklch(39% 0.17 257)", "oklch(51% 0.19 257)", "oklch(63% 0.17 257)", "oklch(75% 0.12 257)", "oklch(87% 0.07 257)", "oklch(95% 0.03 257)"] },
+      "link-hover": { "role": "primary", "displayName": "Documentation Blue, lifted", "canonical": "#0077ed", "dark": "#4fadff", "cssVar": "--link-hover", "tonalRamp": ["oklch(15% 0.08 256)", "oklch(27% 0.13 256)", "oklch(39% 0.17 256)", "oklch(56% 0.2 256)", "oklch(63% 0.18 256)", "oklch(75% 0.12 256)", "oklch(87% 0.07 256)", "oklch(95% 0.03 256)"] },
+      "focus": { "role": "primary", "displayName": "Focus Blue", "canonical": "#0071e3", "dark": "#2997ff", "cssVar": "--focus", "tonalRamp": ["oklch(15% 0.08 257)", "oklch(27% 0.13 257)", "oklch(39% 0.17 257)", "oklch(54% 0.2 257)", "oklch(63% 0.18 257)", "oklch(75% 0.12 257)", "oklch(87% 0.07 257)", "oklch(95% 0.03 257)"] },
+      "selection": { "role": "primary", "displayName": "Selection Blue", "canonical": "#b4d5fe", "dark": "#1f4e84", "cssVar": "--selection", "tonalRamp": ["oklch(15% 0.04 250)", "oklch(27% 0.06 250)", "oklch(39% 0.08 250)", "oklch(51% 0.09 250)", "oklch(63% 0.09 250)", "oklch(75% 0.08 250)", "oklch(86% 0.06 250)", "oklch(95% 0.03 250)"] },
+      "code-keyword": { "role": "tertiary", "displayName": "Keyword Magenta", "canonical": "#ad3da4", "dark": "#ff7ab2", "cssVar": "--code-kw", "tonalRamp": ["oklch(15% 0.06 335)", "oklch(27% 0.11 335)", "oklch(39% 0.15 335)", "oklch(53% 0.19 335)", "oklch(63% 0.18 335)", "oklch(75% 0.14 335)", "oklch(87% 0.08 335)", "oklch(95% 0.03 335)"] },
+      "code-type": { "role": "tertiary", "displayName": "Type Teal", "canonical": "#3f6e74", "dark": "#78c2b3", "cssVar": "--code-ty", "tonalRamp": ["oklch(15% 0.02 205)", "oklch(27% 0.035 205)", "oklch(39% 0.045 205)", "oklch(49% 0.05 205)", "oklch(63% 0.05 205)", "oklch(75% 0.045 205)", "oklch(87% 0.03 205)", "oklch(95% 0.015 205)"] },
+      "code-string": { "role": "tertiary", "displayName": "String Red", "canonical": "#d12f1b", "dark": "#ff8170", "cssVar": "--code-st", "tonalRamp": ["oklch(15% 0.06 32)", "oklch(27% 0.11 32)", "oklch(39% 0.16 32)", "oklch(56% 0.21 32)", "oklch(63% 0.19 32)", "oklch(75% 0.13 32)", "oklch(87% 0.07 32)", "oklch(95% 0.03 32)"] },
+      "code-attribute": { "role": "tertiary", "displayName": "Attribute Ochre", "canonical": "#947100", "dark": "#d9c97c", "cssVar": "--code-at", "tonalRamp": ["oklch(15% 0.04 90)", "oklch(27% 0.07 90)", "oklch(39% 0.09 90)", "oklch(57% 0.12 90)", "oklch(63% 0.12 90)", "oklch(75% 0.1 90)", "oklch(87% 0.07 90)", "oklch(95% 0.03 90)"] },
+      "code-comment": { "role": "tertiary", "displayName": "Comment Slate", "canonical": "#707f8c", "dark": "#7f8c98", "cssVar": "--code-cm", "tonalRamp": ["oklch(15% 0.015 240)", "oklch(27% 0.02 240)", "oklch(39% 0.025 240)", "oklch(58% 0.03 240)", "oklch(63% 0.03 240)", "oklch(75% 0.025 240)", "oklch(87% 0.015 240)", "oklch(95% 0.008 240)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The page H1 only. text-wrap: balance." },
+      "headline": { "displayName": "Headline", "purpose": "Section h2s, hairline-underlined with 12px padding. 24px at ≤480px." },
+      "title": { "displayName": "Title", "purpose": "App symbol h3s. Ink, blue on hover." },
+      "abstract": { "displayName": "Abstract", "purpose": "One-paragraph summary under the H1 in secondary ink, capped at 62ch. 19px at ≤480px." },
+      "body": { "displayName": "Body", "purpose": "Overview paragraphs, capped at 68ch. 16px at ≤480px. Topic names use body size at 600 in blue." },
+      "label": { "displayName": "Label", "purpose": "Navigator rows, On This Page rows, breadcrumbs, global nav links, availability key, topic-level See Also rows." },
+      "caption": { "displayName": "Caption", "purpose": "Availability badge text, topic meta lines, portrait caption, footer." },
+      "code": { "displayName": "Code", "purpose": "Declaration wells only; 13px in inline declarations. tab-size 4." }
+    },
+    "shadows": [
+      { "name": "icon-hairline-ring", "value": "inset 0 0 0 1px rgba(0, 0, 0, 0.08)", "darkValue": "inset 0 0 0 1px rgba(255, 255, 255, 0.12)", "purpose": "A hairline drawn as an inset ring on app icons. Not an elevation; the only box-shadow on the page." }
+    ],
+    "motion": [
+      { "name": "row-color", "value": "background-color 120ms ease-out, color 120ms ease-out", "purpose": "Navigator and On This Page row hover / current transitions. The only transition on the page." },
+      { "name": "scroll", "value": "scroll-behavior: smooth; scroll-padding-top: calc(48px + 16px)", "purpose": "Anchor navigation clears the sticky global nav. Reset to auto under prefers-reduced-motion." },
+      { "name": "scroll-spy", "value": "IntersectionObserver rootMargin -64px 0px -60% 0px, threshold 0", "purpose": "Sets aria-current=\"location\" on navigator and On This Page links for the topmost visible section." },
+      { "name": "reduced-motion", "value": "transition-duration: 0.01ms !important; scroll-behavior: auto", "purpose": "Applied under prefers-reduced-motion: reduce." }
+    ],
+    "breakpoints": [
+      { "name": "rail-drop", "value": "1199px", "purpose": "≤1199px: On This Page rail removed; navigator narrows to 240px." },
+      { "name": "single-column", "value": "899px", "purpose": "≤899px: single column; navigator becomes a sticky horizontal scroller; icons 56px; dividers become gaps." },
+      { "name": "phone", "value": "480px", "purpose": "≤480px: body 16px, abstract 19px, h2 24px; footer stacks." }
+    ],
+    "layout": {
+      "frame": "1440px",
+      "gutter": "clamp(20px, 3vw, 40px)",
+      "globalNavHeight": "48px",
+      "grid": "260px minmax(0, 1fr) 200px",
+      "columnGap": "48px",
+      "contentMaxWidth": "820px",
+      "measure": { "abstract": "62ch", "body": "68ch" }
+    }
+  },
+  "components": [
+    {
+      "name": "Link",
+      "kind": "button",
+      "refersTo": "link",
+      "description": "The only chromatic element outside code: blue means destination. Hover lifts the blue and adds a 1px offset underline.",
+      "html": "<p class=\"ds-copy\">Read the <a class=\"ds-link\" href=\"#\">RedSum overview</a> or <a class=\"ds-link\" href=\"#\">view on the App Store</a>.</p>",
+      "css": ".ds-copy { font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.47; color: var(--ink, #1d1d1f); margin: 0; } .ds-link { color: var(--link, #0066cc); text-decoration: none; text-underline-offset: 0.18em; text-decoration-thickness: 1px; } .ds-link:hover { color: var(--link-hover, #0077ed); text-decoration: underline; } .ds-link:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Global Nav",
+      "kind": "nav",
+      "refersTo": "globalnav",
+      "description": "48px sticky bar on paper with a hairline bottom edge; title at 19px/600, links at 14px in ink that turn blue on hover.",
+      "html": "<header class=\"ds-globalnav\"><a class=\"ds-globalnav-title\" href=\"#\">Joao Valente</a><nav class=\"ds-globalnav-links\"><a href=\"#\">Apps</a><a href=\"#\">Projects</a><a href=\"#\">About</a><a href=\"#\">GitHub</a></nav></header>",
+      "css": ".ds-globalnav { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 48px; padding: 0 24px; background: var(--paper, #ffffff); border-bottom: 1px solid var(--rule, #d2d2d7); font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; } .ds-globalnav-title { color: var(--ink, #1d1d1f); font-size: 19px; font-weight: 600; letter-spacing: -0.01em; text-decoration: none; } .ds-globalnav-links { display: flex; gap: 28px; font-size: 14px; } .ds-globalnav-links a { color: var(--ink, #1d1d1f); text-decoration: none; } .ds-globalnav-links a:hover { color: var(--link, #0066cc); } .ds-globalnav a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Navigator Tree",
+      "kind": "nav",
+      "refersTo": "nav-row",
+      "description": "Left-rail documentation tree: 14px rows with 6px corners, hairline indent line, well-fill on hover, well + blue + 600 when current.",
+      "html": "<nav class=\"ds-navigator\"><ul class=\"ds-nav-tree\"><li><a class=\"ds-nav-root\" href=\"#\">Joao Valente</a><ul><li><a href=\"#\" aria-current=\"location\">Apps</a><ul><li><a href=\"#\">RedSum</a></li><li><a href=\"#\">RSSum</a></li><li><a href=\"#\">Vortex</a></li></ul></li><li><a href=\"#\">Open-source projects</a></li><li><a href=\"#\">About</a></li></ul></li></ul></nav>",
+      "css": ".ds-navigator { width: 240px; padding: 12px 20px 12px 0; border-right: 1px solid var(--rule, #d2d2d7); font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4; } .ds-nav-tree, .ds-nav-tree ul { list-style: none; margin: 0; padding: 0; } .ds-nav-tree ul { position: relative; margin-left: 14px; padding-left: 12px; } .ds-nav-tree ul::before { content: ''; position: absolute; left: 0; top: 4px; bottom: 4px; width: 1px; background: var(--rule, #d2d2d7); } .ds-nav-tree a { display: block; padding: 5px 8px; margin: 1px 0; border-radius: 6px; color: var(--ink, #1d1d1f); text-decoration: none; transition: background-color 120ms ease-out, color 120ms ease-out; } .ds-nav-tree a:hover { background: var(--well, #f5f5f7); } .ds-nav-tree a[aria-current] { background: var(--well, #f5f5f7); color: var(--link, #0066cc); font-weight: 600; } .ds-nav-root { font-weight: 600; } .ds-nav-tree a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Breadcrumbs",
+      "kind": "nav",
+      "refersTo": "breadcrumb",
+      "description": "14px secondary-ink trail, items 8px apart, separated by a slash in rule colour.",
+      "html": "<nav class=\"ds-breadcrumbs\"><ol><li><a href=\"#\">Documentation</a></li><li aria-current=\"page\">Joao Valente</li></ol></nav>",
+      "css": ".ds-breadcrumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: var(--ink-2, #6e6e73); } .ds-breadcrumbs li + li::before { content: '/'; margin-right: 8px; color: var(--rule, #d2d2d7); } .ds-breadcrumbs a { color: var(--ink-2, #6e6e73); text-decoration: none; } .ds-breadcrumbs a:hover { color: var(--link-hover, #0077ed); text-decoration: underline; text-underline-offset: 0.18em; } .ds-breadcrumbs a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Availability Badge",
+      "kind": "chip",
+      "refersTo": "availability-badge",
+      "description": "Hairline-bordered 6px rectangles at 13px, ink on paper, following a 600 'Availability' key. Static; not a pill, not coloured.",
+      "html": "<dl class=\"ds-availability\"><dt>Availability</dt><dd>iOS</dd><dd>iPadOS</dd><dd>macOS</dd><dd>Open source</dd></dl>",
+      "css": ".ds-availability { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0; font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: var(--ink, #1d1d1f); } .ds-availability dt { font-weight: 600; margin-right: 6px; } .ds-availability dd { margin: 0; padding: 3px 9px; border: 1px solid var(--rule, #d2d2d7); border-radius: 6px; background: var(--paper, #ffffff); font-size: 13px; line-height: 1.3; }"
+    },
+    {
+      "name": "Declaration Well",
+      "kind": "card",
+      "refersTo": "declaration-well",
+      "description": "The only filled surface: a grey well with 10px corners holding mono 14px code coloured by the five syntax tokens.",
+      "html": "<pre class=\"ds-declaration\"><code><span class=\"ds-kw\">struct</span> <span class=\"ds-ty\">JoaoValente</span>: <span class=\"ds-ty\">IndependentDeveloper</span> {\n    <span class=\"ds-kw\">let</span> platforms: [<span class=\"ds-ty\">Platform</span>] = [.iOS, .iPadOS, .macOS]\n    <span class=\"ds-kw\">let</span> languages = [<span class=\"ds-st\">\"Swift\"</span>, <span class=\"ds-st\">\"SwiftUI\"</span>]  <span class=\"ds-cm\">// public source</span>\n}</code></pre>",
+      "css": ".ds-declaration { margin: 0; padding: 16px 20px; background: var(--well, #f5f5f7); border-radius: 10px; overflow-x: auto; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 14px; line-height: 1.6; color: var(--ink, #1d1d1f); tab-size: 4; } .ds-declaration code { font-family: inherit; } .ds-kw { color: var(--code-kw, #ad3da4); } .ds-ty { color: var(--code-ty, #3f6e74); } .ds-st { color: var(--code-st, #d12f1b); } .ds-at { color: var(--code-at, #947100); } .ds-cm { color: var(--code-cm, #707f8c); }"
+    },
+    {
+      "name": "App Symbol Row",
+      "kind": "custom",
+      "refersTo": "symbol-row",
+      "description": "An app documented as a symbol: 72px icon with inset hairline ring, 22px/600 title, inline @available well, overview paragraph, See Also row with hairline dividers; hairline below.",
+      "html": "<article class=\"ds-symbol\"><div class=\"ds-symbol-icon\" aria-hidden=\"true\"></div><div class=\"ds-symbol-body\"><h3><a href=\"#\">RedSum</a></h3><pre class=\"ds-declaration ds-declaration-inline\"><code><span class=\"ds-at\">@available</span>(iOS, iPadOS, macOS)\n<span class=\"ds-kw\">struct</span> <span class=\"ds-ty\">RedSum</span>: <span class=\"ds-ty\">App</span></code></pre><p>A Reddit client that turns posts and comment threads into useful summaries.</p><div class=\"ds-see-also\"><span class=\"ds-row-label\">See Also</span><ul class=\"ds-symbol-links\"><li><a href=\"#\">View on the App Store</a></li><li><a href=\"#\">Website</a></li><li><a href=\"#\">Source</a></li></ul></div></div></article>",
+      "css": ".ds-symbol { display: grid; grid-template-columns: 72px minmax(0, 1fr); column-gap: 22px; padding: 28px 0; border-bottom: 1px solid var(--rule, #d2d2d7); font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; color: var(--ink, #1d1d1f); } .ds-symbol-icon { width: 72px; height: 72px; border-radius: 22%; background: linear-gradient(135deg, #ff5a3c, #c0201a); box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08); } .ds-symbol-body h3 { margin: 2px 0 0; font-size: 22px; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; } .ds-symbol-body h3 a { color: var(--ink, #1d1d1f); text-decoration: none; } .ds-symbol-body h3 a:hover { color: var(--link, #0066cc); } .ds-symbol-body p { margin: 12px 0 0; max-width: 68ch; font-size: 17px; line-height: 1.47; } .ds-declaration { margin: 0; background: var(--well, #f5f5f7); border-radius: 10px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; line-height: 1.6; color: var(--ink, #1d1d1f); } .ds-declaration-inline { display: inline-block; max-width: 100%; margin-top: 10px; padding: 10px 14px; font-size: 13px; } .ds-kw { color: var(--code-kw, #ad3da4); } .ds-ty { color: var(--code-ty, #3f6e74); } .ds-at { color: var(--code-at, #947100); } .ds-see-also { margin-top: 14px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; font-size: 15px; } .ds-row-label { font-weight: 600; } .ds-symbol-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 0; } .ds-symbol-links li + li::before { content: ''; display: inline-block; width: 1px; height: 0.9em; margin: 0 12px; vertical-align: -0.1em; background: var(--rule, #d2d2d7); } .ds-symbol-links a { color: var(--link, #0066cc); text-decoration: none; } .ds-symbol-links li:first-child a { font-weight: 600; } .ds-symbol-links a:hover { color: var(--link-hover, #0077ed); text-decoration: underline; text-underline-offset: 0.18em; } .ds-symbol a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Topic Row",
+      "kind": "custom",
+      "refersTo": "topic-row",
+      "description": "An open-source project as a topic entry: blue 17px/600 name, 13px secondary meta with hairline dividers, 16px description; hairline below.",
+      "html": "<ul class=\"ds-topic-list\"><li class=\"ds-topic\"><a class=\"ds-topic-name\" href=\"#\">LocalTypist</a><p class=\"ds-topic-meta\"><span>macOS</span><span>SwiftUI, llama.cpp, Privacy</span></p><p>Private, system-wide autocomplete built around local GGUF models, with app-specific controls and on-device context handling.</p></li><li class=\"ds-topic\"><a class=\"ds-topic-name\" href=\"#\">Grid Switcher</a><p class=\"ds-topic-meta\"><span>macOS</span><span>AppKit, Trackpad, Utility</span></p><p>A menu-bar utility that maps a physical 3×3 trackpad grid to stable app shortcuts.</p></li></ul>",
+      "css": ".ds-topic-list { list-style: none; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; color: var(--ink, #1d1d1f); } .ds-topic { padding: 22px 0; border-bottom: 1px solid var(--rule, #d2d2d7); } .ds-topic:last-child { border-bottom: 0; } .ds-topic-name { display: inline-block; font-size: 17px; font-weight: 600; color: var(--link, #0066cc); text-decoration: none; } .ds-topic-name:hover { color: var(--link-hover, #0077ed); text-decoration: underline; text-underline-offset: 0.18em; } .ds-topic-name:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; } .ds-topic-meta { margin: 6px 0 0; display: flex; flex-wrap: wrap; font-size: 13px; color: var(--ink-2, #6e6e73); } .ds-topic-meta span + span::before { content: ''; display: inline-block; width: 1px; height: 0.9em; margin: 0 10px; vertical-align: -0.1em; background: var(--rule, #d2d2d7); } .ds-topic > p:not(.ds-topic-meta) { margin: 8px 0 0; max-width: 68ch; font-size: 16px; line-height: 1.47; }"
+    },
+    {
+      "name": "On This Page Rail",
+      "kind": "nav",
+      "refersTo": "on-this-page-row",
+      "description": "Right-rail section index: 12px/600 secondary title, 14px secondary-ink rows with the navigator's row shape and states.",
+      "html": "<aside class=\"ds-otp\"><p class=\"ds-otp-title\">On This Page</p><ul><li><a href=\"#\">Declaration</a></li><li><a href=\"#\" aria-current=\"location\">Apps</a></li><li><a href=\"#\">Open-source projects</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">See Also</a></li></ul></aside>",
+      "css": ".ds-otp { width: 200px; font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4; } .ds-otp-title { margin: 0; padding: 0 8px 6px; font-size: 12px; font-weight: 600; color: var(--ink-2, #6e6e73); } .ds-otp ul { list-style: none; margin: 0; padding: 0; } .ds-otp a { display: block; padding: 5px 8px; margin: 1px 0; border-radius: 6px; color: var(--ink-2, #6e6e73); text-decoration: none; transition: background-color 120ms ease-out, color 120ms ease-out; } .ds-otp a:hover { background: var(--well, #f5f5f7); color: var(--ink, #1d1d1f); } .ds-otp a[aria-current] { background: var(--well, #f5f5f7); color: var(--link, #0066cc); font-weight: 600; } .ds-otp a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; }"
+    },
+    {
+      "name": "Doc Footer",
+      "kind": "custom",
+      "refersTo": "footer",
+      "description": "Hairline-topped 13px secondary-ink closing line with a Back to top link on the right.",
+      "html": "<footer class=\"ds-footer\"><p>Built by Joao Valente. Designed around the work.</p><a href=\"#\">Back to top</a></footer>",
+      "css": ".ds-footer { display: flex; justify-content: space-between; gap: 16px; padding-top: 20px; border-top: 1px solid var(--rule, #d2d2d7); font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: var(--ink-2, #6e6e73); } .ds-footer p { margin: 0; } .ds-footer a { color: var(--link, #0066cc); text-decoration: none; } .ds-footer a:hover { color: var(--link-hover, #0077ed); text-decoration: underline; text-underline-offset: 0.18em; } .ds-footer a:focus-visible { outline: 2px solid var(--focus, #0071e3); outline-offset: 2px; border-radius: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Symbol Reference",
+    "overview": "The portfolio is written as a developer documentation page about the developer himself. It borrows the grammar of Apple's developer documentation wholesale: a hairline-bounded navigator on the left, a breadcrumb, a large plain title, a grey abstract, an Availability row, a Declaration well set in mono, and then each app as a documented symbol with its own icon, `@available` declaration, overview paragraph and See Also links. The interface recedes so completely that the work is the only thing with colour on the page.\n\nThe material is paper and ink. White (or, in dark mode, true black) carries a single near-black text colour, a single secondary grey, one blue that means \"you can go here\", and 1px hairlines that do all of the structural work: column boundaries, section underlines, row separators, the badge outline. The only filled surface is a whisper-grey well, used for code and for the active navigator row. There are no cards, no shadows, no gradients, no pills, no eyebrows or kickers, no italic display and no icons other than the four real app icons and the portrait.\n\nType is the platform's own system sans in exactly two weights: 400 for reading, 600 for anything that names something. Hierarchy is carried by size, tightening letter-spacing on larger sizes, and the grey secondary colour; never by a third weight, a second face, or uppercase tracking. Mono appears only inside declaration wells. Motion is nearly absent: 120ms colour transitions on navigator rows and a scroll-spy that moves the current-row highlight, both of which collapse under `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Documentation-page grammar: navigator / content / On This Page in a three-column grid on a 1440px frame.",
+      "Paper and ink palette with one blue; dark scheme swaps every token via `prefers-color-scheme`.",
+      "Hairlines (1px `rule`) are the only structural device; the grey `well` is the only fill.",
+      "System sans, two weights (400 / 600); mono for declarations only.",
+      "Six-step size ramp from 44px display down to 13px caption, negative tracking above 20px.",
+      "Flat, shadowless, unanimated at rest; 120ms colour transitions and scroll-spy highlight are the whole motion vocabulary."
+    ],
+    "rules": [
+      { "name": "The One Blue Rule", "body": "Outside a declaration well, the only chromatic colour on the page is `link`. If something is blue it is a destination; if it is a destination it is blue (or ink that turns blue on hover). No second accent, no coloured badges, no tinted sections.", "section": "colors" },
+      { "name": "The Hairline Rule", "body": "Structure is drawn with 1px `rule` lines, never with fills, shadows or spacing alone. A new region gets a hairline above or beside it; a filled panel is not an option.", "section": "colors" },
+      { "name": "The Well Is For Code Rule", "body": "`well` fills exactly two things: declaration wells and the hover / current state of a navigator row. It is not a card background, not a section tint, not a callout.", "section": "colors" },
+      { "name": "The Scheme Swap Rule", "body": "Every colour token has a dark counterpart and switches under `prefers-color-scheme: dark`; `color-scheme: light dark` is set on `:root`. New colours must be introduced in both schemes or not at all.", "section": "colors" },
+      { "name": "The Two Weights Rule", "body": "400 and 600 are the only weights on the page. Emphasis is never italic, never uppercase, never a third weight; it is size, 600, or secondary grey.", "section": "typography" },
+      { "name": "The Mono Is Declaration Rule", "body": "The mono stack appears only inside a `well`. Never for labels, eyebrows, meta lines or numerals in running copy.", "section": "typography" },
+      { "name": "The Tightening Rule", "body": "Letter-spacing goes negative only above 20px (−0.01em at 19–22px, −0.012em at 28px, −0.015em at the H1). Nothing below 19px is tracked.", "section": "typography" },
+      { "name": "The Rail Rule", "body": "The three-column frame is the desktop truth; rails are dropped right-to-left as width shrinks (On This Page first, then the navigator flattens). Content never reflows into a card grid.", "section": "layout" },
+      { "name": "The Flat Paper Rule", "body": "No drop shadows, no glows, no gradients, no blur. If something needs to read as separate, give it a hairline; if it needs to read as recessed, give it the `well`.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do draw every boundary as a 1px `rule` hairline (column edges, h2 underlines, row separators, badge borders) and nothing else.",
+      "Do keep `link` blue as the only chromatic colour outside code wells; blue always means a destination.",
+      "Do use exactly two weights: 600 to name (titles, labels, current nav row, primary See Also link), 400 to read.",
+      "Do set every new colour in both schemes; the dark scheme is true black paper with `#f5f5f7` ink.",
+      "Do cap reading measures at 62ch (abstract) and 68ch (body) with `text-wrap: pretty`.",
+      "Do add a new app as one `.symbol` block and a new project as one `.topic` block; the row grammar (icon / title / declaration / paragraph / See Also) is the unit of growth.",
+      "Do keep functional text at 13px or above and body at 17px (16px at ≤480px)."
+    ],
+    "donts": [
+      "Don't add cards, panels, tinted sections or any filled container other than a declaration well.",
+      "Don't use shadows, gradients, blur or glows anywhere; the inset hairline ring on app icons is the only permitted `box-shadow`.",
+      "Don't introduce a second accent, coloured badges, or platform-coloured tags; availability badges are ink on paper with a hairline border.",
+      "Don't use mono outside a `well`, and don't use eyebrows, kickers, uppercase tracked labels, italic display or a third weight.",
+      "Don't make availability badges or nav rows pill-shaped; corners stay at 6px, wells at 10px.",
+      "Don't add motion beyond 120ms colour transitions and the scroll-spy highlight; anything animated must collapse under `prefers-reduced-motion`.",
+      "Don't replace the documentation frame with a hero, a bento grid or a card grid at any breakpoint; rails drop, content never reflows into cards."
+    ]
+  }
+}
