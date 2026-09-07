@@ -175,7 +175,7 @@ Type is the platform's own system sans in exactly two weights: 400 for reading, 
 
 **Key Characteristics:**
 - Documentation-page grammar: navigator / content / On This Page in a three-column grid on a 1440px frame.
-- Paper and ink palette with one blue; dark scheme swaps every token via `prefers-color-scheme`.
+- True-black paper and light ink palette with one blue; the dark scheme is the only scheme (user preference), not a `prefers-color-scheme` swap.
 - Hairlines (1px `rule`) are the only structural device; the grey `well` is the only fill.
 - System sans, two weights (400 / 600); mono for declarations only.
 - Six-step size ramp from 44px display down to 13px caption, negative tracking above 20px.
@@ -212,7 +212,7 @@ A monochrome paper-and-ink page with a single blue reserved for navigation, and 
 
 **The Well Is For Code Rule.** `well` fills exactly two things: declaration wells and the hover / current state of a navigator row. It is not a card background, not a section tint, not a callout.
 
-**The Scheme Swap Rule.** Every colour token has a dark counterpart and switches under `prefers-color-scheme: dark`; `color-scheme: light dark` is set on `:root`. New colours must be introduced in both schemes or not at all.
+**The One Scheme Rule.** The site is dark by default and only dark: `color-scheme: dark` is set on `:root` and no `prefers-color-scheme` media query exists. The former light tokens (`#ffffff` paper, `#1d1d1f` ink, `#6e6e73` secondary, `#d2d2d7` hairline, `#f5f5f7` well, `#0066cc` link) are retired; do not reintroduce a light scheme without the owner's decision.
 
 ## Typography
 
@@ -331,7 +331,7 @@ Corners are soft but unremarkable. Small interactive rectangles (navigator rows,
 - **Do** draw every boundary as a 1px `rule` hairline (column edges, h2 underlines, row separators, badge borders) and nothing else.
 - **Do** keep `link` blue as the only chromatic colour outside code wells; blue always means a destination.
 - **Do** use exactly two weights: 600 to name (titles, labels, current nav row, primary See Also link), 400 to read.
-- **Do** set every new colour in both schemes; the dark scheme is true black paper with `#f5f5f7` ink.
+- **Do** define new colours against the single dark scheme: true black paper with `#f5f5f7` ink.
 - **Do** cap reading measures at 62ch (abstract) and 68ch (body) with `text-wrap: pretty`.
 - **Do** add a new app as one `.symbol` block and a new project as one `.topic` block; the row grammar (icon / title / declaration / paragraph / See Also) is the unit of growth.
 - **Do** keep functional text at 13px or above and body at 17px (16px at ≤480px).
