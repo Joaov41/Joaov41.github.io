@@ -34,7 +34,7 @@ An independent developer who ships native Swift/SwiftUI apps across iPhone, iPad
 Shipped apps (facts and links from current site):
 - RedSum, iPhone/iPad/Mac, App Store id6757315148, website redapp.digital, source github.com/Joaov41/redapp
 - RSSum, iPhone/iPad/Mac, App Store id6743862589, website rssapp.top, source github.com/Joaov41/Rss
-- Vortex, iPhone/iPad, TestFlight KTsJ3qz4, website vortex.engineer, source github.com/Joaov41/Vortex-Browser
+- Vortyra (formerly Vortex), iPhone/iPad, TestFlight KTsJ3qz4, website vortex.engineer, source github.com/Joaov41/Vortex-Browser
 - Aiassistant, macOS, open source, website ai.assistant.community, source github.com/Joaov41/Aiassistant
 
 Open-source projects: LocalTypist, Grid Switcher, Focus Latch, FloatDeck, RedbarApp, HideMyData (fork of mkbula/HideMyData), Redactor, AppleGPT (iOS/iPadOS and macOS repos, modified fork), ScreencapNative. Descriptions and platform tags in `index.html` are confirmed product truth and must be preserved verbatim unless the user edits them.
