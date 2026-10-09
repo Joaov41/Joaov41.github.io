@@ -32,7 +32,7 @@ An independent developer who ships native Swift/SwiftUI apps across iPhone, iPad
 ## Capabilities and Constraints
 
 Shipped apps (facts and links from current site):
-- RedSum, iPhone/iPad/Mac, App Store id6757315148, website redapp.digital, source github.com/Joaov41/redapp
+- redapp (App Store name RedSum), iPhone/iPad/Mac, App Store id6757315148, website redapp.digital, source github.com/Joaov41/redapp
 - RSSum, iPhone/iPad/Mac, App Store id6743862589, website rssapp.top, source github.com/Joaov41/Rss
 - Vortyra (formerly Vortex), iPhone/iPad, TestFlight KTsJ3qz4, website vortex.engineer, source github.com/Joaov41/Vortex-Browser
 - Aiassistant, macOS, open source, website ai.assistant.community, source github.com/Joaov41/Aiassistant
