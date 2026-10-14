@@ -38,6 +38,8 @@ Shipped apps (facts and links from current site):
 - Aiassistant, macOS, open source, website ai.assistant.community, source github.com/Joaov41/Aiassistant
 - Shinybox, iOS/iPadOS/macOS 27+, coming soon to the App Store, website shinybox.net. Personal library for saved links, notes, images and files, tags and Smart Lists, content search, Apple Intelligence, share-sheet and Mac shelf saving, and iCloud sync.
 
+Tessel: native Mac window manager, macOS 14+, coming soon. Website tesselwm.vercel.app. Tiles windows, groups apps into tabs, resizes neighbors together, saves layouts and provides window pinning and focus lock. Its existing website mark and real app-groups screenshot are included in the portfolio.
+
 Open-source projects: LocalTypist, Grid Switcher, Focus Latch, FloatDeck, RedbarApp, HideMyData (fork of mkbula/HideMyData), Redactor, AppleGPT (iOS/iPadOS and macOS repos, modified fork), ScreencapNative. Descriptions and platform tags in `index.html` are confirmed product truth and must be preserved verbatim unless the user edits them.
 
 Constraints:
