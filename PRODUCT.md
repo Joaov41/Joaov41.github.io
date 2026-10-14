@@ -36,6 +36,7 @@ Shipped apps (facts and links from current site):
 - RSSum, iPhone/iPad/Mac, App Store id6743862589, website rssapp.top, source github.com/Joaov41/Rss
 - Vortyra (formerly Vortex), iPhone/iPad, TestFlight KTsJ3qz4, website vortex.engineer, source github.com/Joaov41/Vortex-Browser
 - Aiassistant, macOS, open source, website ai.assistant.community, source github.com/Joaov41/Aiassistant
+- Shinybox, iOS/iPadOS/macOS 27+, coming soon to the App Store, website shinybox-app.vercel.app. Personal library for saved links, notes, images and files, tags and Smart Lists, content search, Apple Intelligence, share-sheet and Mac shelf saving, and iCloud sync.
 
 Open-source projects: LocalTypist, Grid Switcher, Focus Latch, FloatDeck, RedbarApp, HideMyData (fork of mkbula/HideMyData), Redactor, AppleGPT (iOS/iPadOS and macOS repos, modified fork), ScreencapNative. Descriptions and platform tags in `index.html` are confirmed product truth and must be preserved verbatim unless the user edits them.
 
