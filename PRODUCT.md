@@ -40,6 +40,8 @@ Shipped apps (facts and links from current site):
 
 Tessel: native Mac window manager, macOS 14+, coming soon. Website tesselwm.vercel.app. Tiles windows, groups apps into tabs, resizes neighbors together, saves layouts and provides window pinning and focus lock. Its existing website mark and real app-groups screenshot are included in the portfolio.
 
+Draggy: iPhone/iPad (iOS 18+) and Mac (macOS 15+), free, public TestFlight beta for iOS and a notarized DMG for Mac. Website portfolio.ovalente.online/draggy-app. Drag a file off the iPhone screen edge and it lands on the Mac Desktop where it crossed, and back; files, text and clipboard over local Wi-Fi, encrypted between paired devices, no account. The screenshot is composed from real recordings of the Mac bloom and iPhone glow.
+
 Open-source projects: LocalTypist, Grid Switcher, Focus Latch, FloatDeck, RedbarApp, HideMyData (fork of mkbula/HideMyData), Redactor, AppleGPT (iOS/iPadOS and macOS repos, modified fork), ScreencapNative. Descriptions and platform tags in `index.html` are confirmed product truth and must be preserved verbatim unless the user edits them.
 
 Constraints:
